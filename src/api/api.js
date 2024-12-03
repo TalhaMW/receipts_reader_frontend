@@ -19,7 +19,7 @@ const get_process_images = async ()=>{
          return result.data
     } catch (error) {
         console.log(error);
-        
+
     }
  
 };

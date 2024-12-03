@@ -3,7 +3,7 @@ import axios from 'axios';
 
 // Create an Axios instance with default configurations
 const axiosInstance = axios.create({
-  baseURL: "https://16.170.219.74/api/v1", // Replace with your API's base URL
+  baseURL: process.env.REACT_APP_BASE_URL, // Replace with your API's base URL
   headers: {
     'Content-Type': 'application/json',
     // You can add authorization token or other default headers here
